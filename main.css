@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+      .button{
+            @apply  text-sm md:text-base border p-1 md:rounded-lg rounded-md md:p-2 text-center md:text-center bg-[#F44335] text-[#FFFFFF]
+      }
+      .button1{
+            @apply  text-sm md:text-base border p-1 md:rounded-2xl rounded-md md:p-2 text-center md:text-center bg-[#FAFAFA] text-[#F44335]
+
+      }
+      .ima{
+            @apply w-10 md:w-12 h-12 md:h-14
+      }
+      .par{
+            @apply text-base md:text-lg font-normal md:font-medium
+      }
+      .cat{
+        
+            @apply md:w-12 md:h-24 w-9 h-16
+      }
+      .dst{
+            @apply text-xs md:text-xl font-bold md:font-semibold
+      }
+      .foot{
+            @apply md:font-bold font-medium text-sm md:text-base text-[#20484F]
+      }
+      .nato{
+            @apply  text-xs  md:text-sm font-normal  text-[#20484F]
+      }
+      
+     
+
+}
+
+      .imag{
+            background-image: url('./ma.png');
+            background-position: center;
+            
+      }
+      .bom{
+            background-image: url('./mom.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:contain;
+      }
+      
+      
+      
+
+
+
